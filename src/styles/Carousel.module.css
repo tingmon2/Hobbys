@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=M+PLUS+Rounded+1c:wght@300;400&family=Noto+Sans&family=Sniglet:wght@400;800&display=swap");
+
+.carousel {
+	width: 350px;
+	height: 350px;
+	margin: auto;
+}
+
+@media (max-width: 350px) {
+	.carousel {
+		width: auto;
+		height: auto;
+	}
+}
+
+.homeCarousel {
+	width: 350px;
+	height: 350px;
+	margin: 10px auto;
+}
+
+@media (max-width: 450px) {
+	.homeCarousel {
+		width: auto;
+		height: auto;
+	}
+}
+
+.detailCarousel {
+	width: 350px;
+	height: 350px;
+	margin: 10px auto;
+	z-index: 0;
+}
+
+@media (max-width: 380px) {
+	.detailCarousel {
+		width: auto;
+		height: auto;
+	}
+}
+
+.collapsekDiv {
+	display: flex;
+	justify-content: space-between;
+}
